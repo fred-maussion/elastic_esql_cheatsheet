@@ -2,11 +2,23 @@
 
 This repository aims to collect a comprehensive cheatsheet of common ES|QL queries. The purpose of this repository is to provide real life examples reference guide for analysts who work with Elasticsearch.
 
-## Why ES|QL?
+<!-- vscode-markdown-toc -->
+* 1. [Why ES|QL?](#WhyESQL)
+* 2. [What's inside this repository?](#Whatsinsidethisrepository)
+* 3. [Use case](#Usecase)
+	* 3.1. [Tcpdump Runtime Monitoring Across Servers](#TcpdumpRuntimeMonitoringAcrossServers)
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+##  1. <a name='WhyESQL'></a>Why ES|QL?
 
 ES|QL, the Elasticsearch query language, allows you to craft complex queries to retrieve specific data from your Elasticsearch indices. With ES|QL, you can filter, sort, and aggregate data using various operators and functions.
 
-## What's inside this repository?
+##  2. <a name='Whatsinsidethisrepository'></a>What's inside this repository?
 
 This repository contains a curated list of ES|QL queries that cover common use cases, such as:
 
@@ -17,9 +29,9 @@ This repository contains a curated list of ES|QL queries that cover common use c
 You can expect to find examples of queries along with csv samples for common use cases like search suggestions, autocomplete, faceting, and more.
 
 
-## Use case
+##  3. <a name='Usecase'></a>Use case
 
-### Tcpdump Runtime Monitoring Across Servers
+###  3.1. <a name='TcpdumpRuntimeMonitoringAcrossServers'></a>Tcpdump Runtime Monitoring Across Servers
 
 __Description__ : Track and analyze the runtime of tcpdump processes across servers to monitor system activity and identify unusual execution patterns.
 
