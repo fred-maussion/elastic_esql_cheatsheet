@@ -1,0 +1,5 @@
+host.name,process.pid,event.action,@timestamp,process.name
+server-01,1234,start,2024-06-04 10:00:00,tcpdump
+server-01,1234,end,2024-06-04 10:10:00,tcpdump
+server-02,5678,start,2024-06-04 11:00:00,tcpdump
+server-02,5678,end,2024-06-04 11:30:00,tcpdump
