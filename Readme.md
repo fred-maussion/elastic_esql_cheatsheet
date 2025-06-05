@@ -2,11 +2,13 @@
 
 This repository aims to collect a comprehensive cheatsheet of common ES|QL queries. The purpose of this repository is to provide real life examples reference guide for analysts who work with Elasticsearch.
 
+##  1. <a name='TableofContents'></a>Table of Contents
 <!-- vscode-markdown-toc -->
-* 1. [Why ES|QL?](#WhyESQL)
-* 2. [What's inside this repository?](#Whatsinsidethisrepository)
-* 3. [Use case](#Usecase)
-	* 3.1. [Tcpdump Runtime Monitoring Across Servers](#TcpdumpRuntimeMonitoringAcrossServers)
+* 1. [Table of Contents](#TableofContents)
+* 2. [Why ES|QL?](#WhyESQL)
+* 3. [What's inside this repository?](#Whatsinsidethisrepository)
+* 4. [Use case](#Usecase)
+	* 4.1. [Tcpdump Runtime Monitoring Across Servers](#TcpdumpRuntimeMonitoringAcrossServers)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -14,11 +16,11 @@ This repository aims to collect a comprehensive cheatsheet of common ES|QL queri
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
-##  1. <a name='WhyESQL'></a>Why ES|QL?
+##  2. <a name='WhyESQL'></a>Why ES|QL?
 
 ES|QL, the Elasticsearch query language, allows you to craft complex queries to retrieve specific data from your Elasticsearch indices. With ES|QL, you can filter, sort, and aggregate data using various operators and functions.
 
-##  2. <a name='Whatsinsidethisrepository'></a>What's inside this repository?
+##  3. <a name='Whatsinsidethisrepository'></a>What's inside this repository?
 
 This repository contains a curated list of ES|QL queries that cover common use cases, such as:
 
@@ -29,9 +31,9 @@ This repository contains a curated list of ES|QL queries that cover common use c
 You can expect to find examples of queries along with csv samples for common use cases like search suggestions, autocomplete, faceting, and more.
 
 
-##  3. <a name='Usecase'></a>Use case
+##  4. <a name='Usecase'></a>Use case
 
-###  3.1. <a name='TcpdumpRuntimeMonitoringAcrossServers'></a>Tcpdump Runtime Monitoring Across Servers
+###  4.1. <a name='TcpdumpRuntimeMonitoringAcrossServers'></a>Tcpdump Runtime Monitoring Across Servers
 
 __Description__ : Track and analyze the runtime of tcpdump processes across servers to monitor system activity and identify unusual execution patterns.
 
