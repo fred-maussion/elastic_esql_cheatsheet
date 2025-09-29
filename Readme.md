@@ -9,6 +9,7 @@ This repository aims to collect a comprehensive cheatsheet of common ES|QL queri
 * 3. [What's inside this repository?](#Whatsinsidethisrepository)
 * 4. [Use case](#Usecase)
 	* 4.1. [Tcpdump Runtime Monitoring Across Servers](#TcpdumpRuntimeMonitoringAcrossServers)
+	* 4.2. [Follow a transaction based on a correlation id.](#Followatransactionbasedonacorrelationid.)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -64,7 +65,7 @@ FROM test_esql
 | WHERE run_time > 15
 ```
 
-###  4.1. <a name='FollowTrasactionBasedOnCorrelationID'></a>Follow a transaction based on a correlation id.
+###  4.2. <a name='Followatransactionbasedonacorrelationid.'></a>Follow a transaction based on a correlation id.
 
 __Description__ : Track and analyze a particular transaction for a given user and extract the current status.
 
