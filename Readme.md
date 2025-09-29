@@ -63,3 +63,16 @@ FROM test_esql
 | KEEP host.hostname, process.name, process.pid, start_time, end_time, run_time
 | WHERE run_time > 15
 ```
+
+###  4.1. <a name='FollowTrasactionBasedOnCorrelationID'></a>Follow a transaction based on a correlation id.
+
+__Description__ : Track and analyze a particular transaction for a given user and extract the current status.
+
+CSV Sample : [file](./esql_follow_transaction_id.csv)
+
+```sql
+FROM follow_transaction_id 
+| WHERE correlation_id == "c4d3e2f1-a5b4-c6d7-e8f9-a0b1c2d3e4f5" // if you want to focus a on particular transaction
+| STATS start_time = MIN(@timestamp), end_time = MAX(@timestamp) by correlation_id, event_action, user_name, user_firstname, user_lastname, user_id 
+| KEEP user_name, user_firstname, user_lastname, start_time, end_time, correlation_id, event_action
+```
